@@ -1,0 +1,178 @@
+body {
+	background-color: #99B2E6;
+	font-size: 12pt;
+}
+.container {
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Arial", Arial, Sans-serif;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #D6E0F5;
+}
+
+.content {
+	width: 30em;
+	border: 2px solid black;
+	border-radius: 10px;
+	float: left;
+	margin: 0;
+	padding: 15px;
+	display: inline;
+	background-color: #D6E0F5;
+}
+
+.navBar {
+	width: 13em;
+	border: 2px solid black;
+	border-radius: 10px;
+	background:#FCFF80;
+	float: left;
+	margin-right: 10px;
+	display: inline;
+	
+}
+
+.navList {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+.navElement {
+	padding: 3px;
+	font-size: 16pt;
+	width: 75%;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+.letterContent {
+	width: 50em;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	display: inline;
+	background-color: #D6E0F5;
+}
+
+.titleBar {
+	text-align: center;
+	padding: 15px 15px;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.navLogo {
+	width: 75%;
+	height: 75%;
+}
+
+a.navLink:hover {
+	font-weight: bold;
+}
+
+a.navLink {
+	color: #2D3444;
+	
+}
+
+.active {
+	border: 2px solid #99B2E6;
+	border-radius: 10px;
+	background-color: #D6E0F5;
+	color: black;
+	font-weight: bold;
+	cursor: default;
+}
+
+div.aboutUsPicDiv {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	width: 40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+}
+
+.mapLink {
+	color: black;
+}
+
+.title {
+	text-align: center;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.textVertCenter {
+	vertical-align: middle;
+}
+
+div.actionsDiv {
+	width: 90%;
+	padding: 10px;
+	padding-left: 5%;
+}
+
+div.actionItem {
+	border: 2px solid black;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+	margin-right: 20px;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+div.footer {
+	width: 50em;
+	text-align: right;
+	font-size: 12px;
+	padding: 10px;
+}
+
+div#loadingCreateWishlistDiv {
+	padding-top: 0px;
+	width: 80%;
+}
+
+img#loadingImage {
+	margin-top: 10px;
+	width: 48px;
+	height: 48px;
+}
+
+.error_border {
+	border: 2px solid red;
+}
+
+input[type="text"] {
+	background-color: #FFF;
+	border-width: 2px;
+	font-family: sans-serif;
+	font-size: 10pt;
+	overflow: hidden;
+	padding: 1px;
+	zoom: 1;
+}
+
+p#new_order_header {
+	width: 80%;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+p#new_order_dates_header {
+	font-weight: bold;
+	cursor: pointer;
+}

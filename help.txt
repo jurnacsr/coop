@@ -1,0 +1,10 @@
+When you have created a wishlist, you will then be able to add items to the list.</p>
+		</p>To add items, first click the 'Add Row' button.  This button will add a row to your wishlist, which contains the desired item, the desired quantity of that item, and 
+		the price of that item.  A few new items will appear - a drop-down menu under Item Name and a text box under Quantity.  First, select an item from the Item Name drop-down
+		box.  The drop-down box will contain the items that are available through the co-op for the current order period.  When you select an item, the unit name (like LB, EACH, etc.)
+		will appear, along with a price per unit.  At the bottom of your wishlist will also be a Grand Total, 
+		containing the cumulative price of all the goods you have requested.</p>
+		<p>To add another item to your wishlist, press the 'Add Row' button again.  You can add as many items to your wishlist in this way.  If you add one too many rows, you can press the 
+		'Remove Last Row' button, but be careful!  If you remove a row with an item and quantity specified, it will be deleted and cannot be recovered!</p>
+		<p>To save the wishlist, press the 'Save Wishlist' button.  Once you have saved the wishlist, it cannot be edited again.  If you need to add items to your list, you'll need to 
+		create a new wishlist.</p>
