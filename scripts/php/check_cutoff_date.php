@@ -6,7 +6,7 @@
 	$current_month = "NULL";
 	
 	// check for wishlist under that name
-	$check_query = "SELECT ORDER_DATE FROM COOP_CONFIG;";
+	$check_query = "SELECT ORDER_CUTOFF_DATE FROM COOP_CONFIG;";
 	$result = mysql_query($check_query, $con);
 	
 	if (mysql_num_rows($result) == 0)
@@ -16,7 +16,7 @@
 	if (!$result) die(mysql_error());
 	while ($row = mysql_fetch_array($result))
 	{
-		$date = $row['ORDER_DATE'];
+		$date = $row['ORDER_CUTOFF_DATE'];
 		
 		$date = str_replace("-", "", $date);
 		

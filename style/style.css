@@ -176,3 +176,11 @@ p#new_order_dates_header {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+.product_view_table: {
+	width: 100%;
+}
+
+.product_view_row: {
+	border-bottom: 1px solid black;
+}
